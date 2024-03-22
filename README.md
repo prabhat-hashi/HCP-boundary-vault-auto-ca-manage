@@ -65,10 +65,10 @@ as per [Create HCP service principal and set env var](https://developer.hashicor
 
 In addition to the secrets you also need to setup the following Github action [variables](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)
 
->TF_CLOUD_ORGANIZATION = the neame of your TF cloud organisation
->TF_SSH_SETUP_WORKSPACE = HCP-boundary-vault-auto-ca-manage
->TF_BOUNDARY_SETUP_WORKSPACE = HCP-boundary-vault-boundary_setup
->TF_INFRA_SETUP_WORKSPACE = HCP-boundary-vault-infra_setup
+- TF_CLOUD_ORGANIZATION = the neame of your TF cloud organisation
+- TF_SSH_SETUP_WORKSPACE = HCP-boundary-vault-auto-ca-manage
+- TF_BOUNDARY_SETUP_WORKSPACE = HCP-boundary-vault-boundary_setup
+- TF_INFRA_SETUP_WORKSPACE = HCP-boundary-vault-infra_setup
 
 # HCP Vault setup:
 - Create [Github actions secrets](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) for:
