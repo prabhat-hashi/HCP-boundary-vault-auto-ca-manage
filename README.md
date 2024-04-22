@@ -1,5 +1,5 @@
 ### HCP-boundary-vault-auto-ca-manage
-Framework to use HCP tooling to manage AMI's CA auth from boundary via vault driven byy github actions and Terraform
+Framework to Use HCP tooling to manage AMI's CA auth from boundary via vault driven byy github actions and Terraform
 
 ## Outcomes:
 This configures:
